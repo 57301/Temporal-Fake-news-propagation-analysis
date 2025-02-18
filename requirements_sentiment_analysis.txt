@@ -1,0 +1,22 @@
+Requirements and Technologies Used in the Sentiment Analysis Project
+
+Technologies Used:
+Python – Primary programming language for analysis.
+Jupyter Notebook / Google Colab – Used for running and analyzing the code.
+Pandas – Data manipulation and processing.
+NLTK (Natural Language Toolkit) – Specifically using the VADER (Valence Aware Dictionary and sEntiment Reasoner) model for sentiment analysis.
+Matplotlib & Seaborn – Data visualization.
+Torch & Transformers – Although imported, they might not be actively used in the code snippet.
+Datasets Library – Possibly used for handling additional datasets.
+
+Requirements (Dependencies Installed in Notebook)
+nltk
+transformers
+torch
+datasets
+
+Overview of Analysis:
+Dataset Used: The notebook processes a dataset (Fake.csv) containing text data.
+Sentiment Analysis: Uses the VADER model to compute sentiment scores.
+Sentiment Classification: Labels text as Positive, Neutral, or Negative based on sentiment scores.
+Visualization: Generates a bar chart showing the distribution of sentiments.
