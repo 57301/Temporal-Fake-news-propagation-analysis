@@ -1,0 +1,20 @@
+Requirements and Technologies Used in Temporal Fake News Propagation Analysis (ARIMA)
+
+Technologies Used:
+Python – Main language for analysis.
+Jupyter Notebook / Google Colab – Used to execute and analyze the project.
+Pandas – Data preprocessing and time-series manipulation.
+NumPy – Numerical operations.
+Matplotlib & Seaborn – Data visualization.
+Datetime – Handling date and time formatting.
+ARIMA (AutoRegressive Integrated Moving Average) – Likely used for time-series forecasting, though not yet visible in the snippet.
+
+Requirements (Dependencies Installed in Notebook)
+No explicit installations (pip install) are mentioned in the first part of the notebook.
+Assumes standard Python libraries (pandas, numpy, matplotlib, seaborn, and statsmodels if ARIMA is used).
+                                   
+Overview of Analysis:
+Dataset Used: Reads Fake.csv, which contains fake news articles with timestamps.
+Date Processing: Converts date column to datetime format, sorts data chronologically, and checks for null values.
+Trend Analysis: Counts the number of fake news articles published daily.
+Visualization: Uses a line plot to show the trend of fake news propagation over time.
